@@ -1,0 +1,217 @@
+
+        *{
+            margin: 0;
+            /* padding: 0; */
+        }
+        .bigscreen {
+            font-family: 'Roboto', sans-serif;
+
+            /* border: 2px solid black; */
+            display: flex;
+            height: max-content;
+            justify-content: center;
+            align-items: center;
+            background-color: #e6e6e6;
+            margin: 0;
+            flex-wrap: wrap;
+            /* flex-grow: ; */
+        }
+
+        .logins {
+            display: flex;
+            flex-wrap: wrap;
+            height: fit-content;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            background-color: white;
+            /* background-color: white; */
+            border: 1px solid rgb(179, 179, 179);
+            border-radius: 2px;
+            width: 351px;
+
+
+
+        }
+
+        .main {
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* border: 2px solid black; */
+            width: 890px;
+            height: 700px;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 50px;
+
+
+        }
+
+        #mobile {
+            width: 543px;
+            height: 550px;
+
+        }
+
+        .mobile {
+            background-image: url(https://cdn.pixabay.com/photo/2014/04/17/23/26/environmental-protection-326923__480.jpg);
+            background-repeat: no-repeat;
+            background-size: 200px 350px;
+            background-position: center;
+            /* background-color: white; */
+        }
+
+        #logo {
+            width: 209px;
+            height: 165px;
+            /* width: 100%; */
+        }
+
+        #email {
+            width: 240px;
+            height: 38px;
+            background-color: rgb(240 240 240);
+            border: 1px solid rgb(185, 185, 185);
+            border-radius: 2px;
+        }
+
+        .password {
+            margin-top: 4px;
+
+            width: 240px;
+            height: 38px;
+            background-color: rgb(240 240 240);
+            border: 1px solid rgb(185, 185, 185);
+            border-radius: 2px;
+        }
+
+        .login {
+            background-color: skyblue;
+            width: 246px;
+            height: 26px;
+            border-radius: 2px;
+            margin-top: 6px;
+            text-align: center;
+            color: white;
+
+
+
+        }
+
+        .rule {
+            color: grey;
+            width: 107px;
+            display: inline-block;
+            margin-top: 27px;
+            height: 0%;
+        }
+
+        h5 {
+            display: inline;
+            margin-top:25px;
+
+        }
+
+        h4 {
+            color: navy;
+            width: 100%;
+            text-align: center;
+            margin-top: 12px;
+        }
+
+        .facebooklogin {
+            width: 80px;
+            text-align: center;
+            display: block;
+        }
+
+        .forget {
+            width: 200px;
+            text-align: center;
+            font-size: 13px;
+            padding-bottom: 6px;
+            margin: 8px;
+        }
+
+        .signup {
+            display: flex;
+            text-align: center;
+            margin-top: 30px;
+            height: 69px;
+            align-items: center;
+
+            width: 348px;
+            justify-content: center;
+            background-color: white;
+            border-radius: 2px;
+            border: 1px solid rgb(179, 179, 179);
+            border-radius: 2px;
+        }
+
+        .getapp {
+            display: flex;
+            margin-top: 6px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            width: 100%;
+
+        }
+
+        .apps {
+            margin: 18px;
+            width: 317px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .app {
+            margin: 5px;
+            width: 164px;
+            height: 40px;
+            /* margin-top: 10px; */
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+
+
+            /* background-color: white; */
+        }
+
+        .bottomrow {
+            display: flex;
+            padding: 6px;
+            color: gray;
+            font-size: 12px;
+            justify-content: center;
+        }
+
+        #languages {
+            border: none;
+            background-color: #e6e6e6;
+            /* padding: 1px; */
+            margin: 3px;
+            font-size: 12px;
+            color: gray;
+        }
+
+        .copyright {
+            font-size: 12px;
+            color: gray;
+            margin-top: 3px;
+
+        }
+
+        @media (max-width:871px) {
+            .mobile {
+                display: none;
+            }
+
+        }
+  
